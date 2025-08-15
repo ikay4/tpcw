@@ -25,7 +25,7 @@ const lucidaSansUnicode = localFont({
 
 export const metadata: Metadata = {
   title: "Texas Pokemon Community Website",
-  description: "The TPCW",
+  description: "The TPCW Home Page",
 };
 
 
