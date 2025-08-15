@@ -14,7 +14,7 @@ const lucidaSansUnicode = localFont({
 const ContactInfoModal = () => {
   return (
     <div>
-        <button className="btn btn-primary btn-soft btn-wide rounded-lg py-5" onClick={()=>document.getElementById("contactInfo_Modal").showModal()}>Contact Information</button>
+        <button className="btn btn-primary btn-soft btn-wide rounded-lg py-5" onClick={()=>(document.getElementById('contactInfo_Modal') as HTMLDialogElement).showModal()}>Contact Information</button>
         <dialog id="contactInfo_Modal" className='modal'>
             <div className='modal-box'>
                 <h2 className={`${futuraBook.className} font-black text-2xl`}>Contact Information</h2>

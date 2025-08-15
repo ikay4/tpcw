@@ -1,7 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
 import logoImg from "../public/images/tpcw_logo.webp"
-import bgImg from "../public/images/underdevelopmentbg.webp"
 import localFont from "next/font/local"
 import ContactInfoModal from "./components/ContactInfoModal";
 
